@@ -34,7 +34,7 @@ Bachelor of Science in Electronics and Telecommunication (CGPA: 8.76 / 10.00)
 
 ## Extracurricular experience
 
-### Trek Leader Pan-Indi | Foliage Outdoors Limited | Jan 2017 – May 2024
+### Trek Leader Pan-India | Foliage Outdoors Limited | Jan 2017 – May 2024
 • Was part of and led teams taking multiple kids camps, corporate outings and high-altitude treks across India.
 
 ## Skills
