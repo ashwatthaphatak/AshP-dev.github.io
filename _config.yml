@@ -11,7 +11,10 @@ description: |
   I am actively seeking tech internships across the US to further develop my skills and contribute to transformative projects. Let’s connect and create something extraordinary together!  
 
 show_downloads: true  
-theme: jekyll-theme-minimal
+# Theme Configuration  
+theme: minima  
+paginate: 5  
+permalink: pretty  
 
 # Social Links  
 social_links:  
