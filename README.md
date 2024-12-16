@@ -3,16 +3,17 @@
 ## Education
 
 ### North Carolina State University | August 2024-Present
-Masters of Science in Computer Science
+Masters of Science in Computer Science (GPA : 4.0 / 4.0)
 
 ### Vishwakarma Institute of Technology | July 2019- May 2023
-Bachelor of Science in Electronics and Telecommunication (CGPA: 8.76 / 10.00)
+Bachelor of Science in Electronics and Telecommunication (GPA: 8.76 / 10.00)
 
 ## Skills
 
 Languages: English , Hindi , Marathi
-Programming Languages: Python, C++ , C , JavaScript
-Other Skills: Monitoring, Incident Management, Change Management, CI/CD, Automation, Open CV, Machine Learning
+Programming Languages: Python, C++ , C 
+Skills:  Site Reliability, Computer Vision, Autonomous Vehicles,  Operating Systems, Linux, Social Computing, Cloud Migration,
+Agile, CI/CD, Linux, Web Development, Postman, Full-Stack, Open CV, Li-DAR, Service Now, Docker,DevOps
 
 ## Projects
 
@@ -35,15 +36,27 @@ resulting in a comparative analysis of both models.
 • Designed a project collaboration portal for programmers using MERN and linked user profiles to Git Hub, enabling
 users to display their repositories on their profile and market themselves to potential collaborators.
 
-## Work Experience
+## Professional Experience
 
-### Site Reliability Engineer | State Street Corporation | July 2023 - July 2024
-• Handled BAU operations with change, incident and problem management in the Application Reliability team, implementing a streamlined procedure to increase successful Change Ticket fulfillment by 70%.
-• Participated in Disaster Recovery Activities and performed smooth fail over and fail back operations to ensure smooth checkout and monitored post-DR business hour incidents to reduce expected downtime by 15%.
-• Documented procedures to resolve known and recurring incidents and wrote over 150 detailed knowledge articles for the suite of Reporting and Ledger applications which could cut down training time for new employees by 50%
+### Site Reliability Engineer  
+**State Street Corporation**  
+Bangalore  
+*July 2023 – July 2024*  
 
-### Intern | State Street Corporation | January 2023 - July 2024
-• Designed and implemented a dashboard using React.js to display consolidated analytical data from Splunk and Dynatrace for the Infrastructure Reliability team, providing critical metrics which helped to target improvement areas faster and reduce potential major incidents by 20%.
+- Implemented streamlined procedures for change, incident, and problem management, resulting in a **70% increase** in successful Change Ticket fulfillment.  
+- Involved in the planning of disaster recovery activities, reducing expected downtime by **15%** and ensuring **100% operational continuity**.  
+- Led documentation efforts with over **150 knowledge articles** for the suite of Hedge Reporting and Ledger applications.  
+
+---
+
+### Technology Intern  
+**State Street Corporation**  
+Bangalore  
+*Jan 2023 – June 2023*  
+
+- Designed and developed a React.js dashboard to display consolidated analytical data for the Infrastructure Reliability team, resulting in a **20% reduction** in potential major incidents related to cloud migrations.  
+- Automated routine maintenance tasks, saving the team an average of **10 hours per week** and improving overall efficiency by **15%**.  
+
 
 ## Extracurricular experience
 
