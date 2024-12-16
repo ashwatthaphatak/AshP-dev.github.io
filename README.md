@@ -1,4 +1,4 @@
-# Computer Science Student
+# Computer Science Student and future Everest summiter
 
 ## Education
 
