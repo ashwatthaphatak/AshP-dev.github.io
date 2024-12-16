@@ -15,26 +15,44 @@ Programming Languages: Python, C++ , C
 Skills:  Site Reliability, Computer Vision, Autonomous Vehicles,  Operating Systems, Linux, Social Computing, Cloud Migration,
 Agile, CI/CD, Linux, Web Development, Postman, Full-Stack, Open CV, Li-DAR, Service Now, Docker,DevOps
 
-## Projects
+## Projects  
 
-### LiDAR-based system for vehicle assistance. | Python, Open CV, TensorFlow, NumPy, Pandas
-• Visualized 3D point cloud data from a Velodyne-HDL sensor using a multistep model with 79.80% accuracy to
-identify and classify obstacles and pedestrians on the road and sidewalks.
-• A combination of RAN SAC segmentation, DB SCAN clustering and Decision Trees was used to provide an estimated
-distance from the identified object.
-• Three goals were 100% achieved in this project - Point Cloud Data Manipulation, Vehicle Detection, and Vehicle
-Position Estimation
-• Placed in the top 7 and received a special mention in a college seminar in front of a panel of external industry
-specialists and affiliate professors.
+### LiDAR-based System for Vehicle Assistance  
+**Technologies**: Python, OpenCV, TensorFlow, NumPy, Pandas  
 
-### Analysis of Path Segmentation algorithms based on DeepLabV3 | Python, Open CV, TensorFlow, NumPy, Pandas
-• Designed two modified algorithms having backbone architectures of MobileNetV2 and Xception65 respectively
-resulting in a comparative analysis of both models.
-• Extrapolated findings with MobileNetV2 and Xception65 giving pixel accuracy of 0.90720 and 0.93265 respectively.
+- Developed a multistep model in Python to **visualize and analyze 3D point cloud data** from a Velodyne-HDL sensor, achieving an **accuracy of 79.80%** in obstacle detection and classification.  
+- Implemented **RANSAC segmentation** for removing noise and extracting ground planes in the LiDAR data.  
+- Utilized **DBSCAN clustering** to group data points belonging to the same obstacle, enabling efficient and accurate detection of individual objects.  
+- Applied **Decision Tree algorithms** for obstacle classification and performed **distance estimation**, facilitating enhanced vehicle navigation and safety.  
 
-### College Collab Portal | React.js , Node.js, Express.js, MongoDB
-• Designed a project collaboration portal for programmers using MERN and linked user profiles to Git Hub, enabling
-users to display their repositories on their profile and market themselves to potential collaborators.
+---
+
+### Analyzing Impact of Moderation Policies on Social Media Engagement  
+**Technologies**: Python, NumPy, Pandas, Scikit-learn, Matplotlib  
+
+- Conducted a **comparative analysis of country-specific moderation policies** on Twitter to evaluate their impact on user engagement with flagged or blocked content.  
+- Examined the alignment of moderation policies with public sentiment and analyzed its effect on **retweet behavior** and overall user interaction.  
+- Processed and visualized **large-scale tweet data** consisting of approximately **650,000 data points**, leveraging statistical tests to validate the results.  
+- Generated insights into how effective moderation approaches influence user behavior, focusing on their potential to reduce interaction with flagged content.  
+
+---
+
+### Implementing Demand Paging in Xinu  
+**Technologies**: C, Assembly, Xinu  
+
+- Designed and implemented an **efficient page fault handler** to dynamically load necessary pages into memory and update page tables, achieving a **5% error rate** in memory handling.  
+- Configured and integrated a **Second Chance page replacement algorithm**, ensuring optimal page reuse while reducing page faults by **70%**, leading to improved system performance.  
+- Enhanced process execution continuity through a robust demand paging implementation, allowing for more effective memory management in a constrained environment.  
+
+---
+
+### College Collab Portal  
+**Technologies**: React.js, Node.js, Express.js, MongoDB  
+
+- Developed a collaborative platform for programmers to **initiate and manage project ideas**, featuring a responsive user interface built with **React.js**.  
+- Designed a scalable backend using **Node.js** and **Express.js**, enabling seamless interactions between users and project repositories.  
+- Integrated the **GitHub API** to display user repositories on their profiles, providing **real-time tracking** of collaborative project progress.  
+- Ensured robust database management with **MongoDB**, supporting user authentication, project submissions, and updates.  
 
 ## Professional Experience
 
