@@ -10,11 +10,8 @@ description: |
   I believe in combining **creativity, collaboration, and technical expertise** to make a meaningful impact.  
   I am actively seeking tech internships across the US to further develop my skills and contribute to transformative projects. Let’s connect and create something extraordinary together!  
 
-show_downloads: true  
-# Theme Configuration  
-theme: minima  
-paginate: 5  
-permalink: pretty  
+show_downloads: true
+theme: jekyll-theme-minimal
 
 # Social Links  
 social_links:  
