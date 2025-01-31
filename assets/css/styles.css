@@ -1,0 +1,64 @@
+/* Dark Mode */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #bb86fc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3700b3;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #1e1e1e;
+  }
+  
+  header .logo {
+    max-width: 150px;
+    border-radius: 50%;
+  }
+  
+  header .description {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+  
+  /* Main Content Styling */
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Dynamic Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Responsive UI */
+  @media (max-width: 768px) {
+    header .description {
+      font-size: 1rem;
+    }
+  
+    .logo {
+      max-width: 100px;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
