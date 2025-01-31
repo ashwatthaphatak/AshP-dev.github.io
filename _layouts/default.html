@@ -8,29 +8,15 @@
 </head>
 <body>
   <header>
-    <nav class="navigation">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
-      <img src="{{ site.logo | relative_url }}" alt="Logo" class="logo">
-      <div class="description">
-        {{ site.description }}
-      </div>
-      <button class="cta-button">Get Started</button>
+    <img src="{{ site.logo | relative_url }}" alt="Logo" class="logo">
+    <div class="description">
+      {{ site.description }}
     </div>
   </header>
 
   <main>
     {{ content }}
   </main>
-
-  <footer>
-    <p>© 2023 MyWebsite. All rights reserved.</p>
-  </footer>
 
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
