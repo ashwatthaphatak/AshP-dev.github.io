@@ -14,5 +14,3 @@ description: |
 show_downloads: true
 theme: jekyll-theme-minimal
 ---
-
-<!-- Page content here -->
