@@ -32,27 +32,26 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   pointer-events: none;
   z-index: 0;
 }
-
-/* Headings aligned to dot grid, no underline or extra lines */
+/* Headings (all levels) aligned to dot grid, with extra spacing */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Courier Prime', monospace;
   color: #003366;
   font-weight: 400;
-  margin-top: 28px;   /* aligns with dot grid */
-  margin-bottom: 14px; 
-  padding: 0;          /* remove padding */
-  border: none;        /* remove border */
-  border-bottom: none; 
-  box-shadow: none;    /* remove faint line if any */
-  background: none;    /* remove background styles if any */
-  line-height: 28px;   /* matches dot grid */
+  margin-top: 56px;   /* increased spacing above headings */
+  margin-bottom: 28px; /* spacing below heading */
+  padding: 0;
+  border: none;
+  border-bottom: none;
+  box-shadow: none;
+  background: none;
+  line-height: 28px; /* matches dot grid */
 }
 
-/* Paragraphs aligned to dot grid */
+/* Paragraphs and list items aligned to dot grid */
 p, li, code, pre {
   margin-top: 0;
-  margin-bottom: 28px; /* aligns to dot spacing */
-  line-height: 28px;   /* matches dot grid */
+  margin-bottom: 28px; /* spacing between lines of content */
+  line-height: 28px;   /* aligns with dot grid */
 }
 
 /* Remove horizontal rules (<hr>) from Markdown --- */

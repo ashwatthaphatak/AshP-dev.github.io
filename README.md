@@ -8,6 +8,17 @@ Raleigh, NC
 
 Graduate CS student (GPA 3.93) specializing in **Operating Systems and Embedded Software**. Hands-on experience with **kernel development (Xinu OS: demand paging, scheduling, file system defragmentation)**, Linux-embedded platforms (**NVIDIA Jetson, ROS**), and **OTA firmware infrastructures**. Skilled in **real-time systems, memory management, device configuration (switches, modems, edge devices)**, and debugging embedded platforms for robotics and autonomous applications.
 
+## EDUCATION
+
+**North Carolina State University, Raleigh** – M.S. in Computer Science (Aug 2024 – May 2026)
+
+- GPA: 3.93 / 4.00
+- Relevant Coursework: Operating Systems, Parallel Systems, Autonomous Driving Systems, Computer Networks, Advanced Robotics, Software Engineering
+
+**Vishwakarma Institute of Technology, Pune** – B.Tech. Electronics & Telecommunication (Aug 2019 – May 2023)
+
+- GPA: 8.76 / 10.0, Honors in Artificial Intelligence
+
 ## SKILLS
 
 **Programming:** C, C++, Python, Bash, CUDA  
@@ -62,14 +73,3 @@ _Mar 2025_
 - Integrated a **CNN-based traffic sign classifier** with CARLA’s RGB camera pipeline for real-time stop sign detection.
 - Designed wave-curve probability tracker for confidence-based vehicle slowdown (≥60%) and stop (≥90%).
 - Optimized **camera FOV, resolution, and latency** for reliable embedded vision performance in constrained environments.
-
-## EDUCATION
-
-**North Carolina State University, Raleigh** – M.S. in Computer Science (Aug 2024 – May 2026)
-
-- GPA: 3.93 / 4.00
-- Relevant Coursework: Operating Systems, Computer Networks, Advanced Robotics, Algorithms
-
-**Vishwakarma Institute of Technology, Pune** – B.Tech. Electronics & Telecommunication (Aug 2019 – May 2023)
-
-- GPA: 8.76 / 10.0, Honors in Artificial Intelligence
