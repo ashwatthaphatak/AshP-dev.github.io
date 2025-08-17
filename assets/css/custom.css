@@ -7,13 +7,21 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   position: relative;
   min-height: 100vh;
   width: 100%;
-  padding: 2rem 110px 4rem 140px; /* right padding matches left margin distance (110px) */
+  padding: 2rem 110px 4rem 140px; /* right padding matches left margin distance */
   background-color: #fffbea;      /* notepad yellow */
   color: #222;
   line-height: 1.6;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
   z-index: 1;
+
+  /* Horizontal ruled lines like notebook */
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 28px,
+    #c0c0c0 29px
+  );
 }
 
 /* Red margin line—anchored to the notepad wrapper, never overlaps text */
@@ -22,9 +30,9 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 110px;               /* margin line position */
-  width: 3px;                /* slightly thicker for better visibility */
-  background: rgba(200, 0, 0, 0.8); /* darker/more visible red */
+  left: 110px;                
+  width: 3px;                 
+  background: rgba(200, 0, 0, 0.8); 
   pointer-events: none;
   z-index: 0;
 }
