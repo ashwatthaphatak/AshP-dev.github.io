@@ -6,98 +6,80 @@ Currently, I am working on an Independent Study around Data for ADAS and related
 
 Beyond my professional aspirations, I am an avid soccer, cricket, and Formula 1 fan, as well as a passionate trekker and traveler, always eager to explore new places and perspectives. I believe in combining creativity, collaboration, and technical expertise to make a meaningful impact. I am actively seeking tech internships across the US to further develop my skills and contribute to transformative projects. Let’s connect and create something extraordinary together!
 
-## Education
-
-### North Carolina State University | August 2024-Present
-
-Masters of Science in Computer Science (GPA : 4.0 / 4.0)
-
-### Vishwakarma Institute of Technology | July 2019- May 2023
-
-Bachelor of Science in Electronics and Telecommunication (GPA: 8.76 / 10.00)
-
-## Skills
-
-### Languages
-
-- **Natural Languages**: English, Hindi, Marathi
-- **Programming Languages**: Python, C++, C , Typescript
-
-### Technical Skills
-
-- **Infrastructure & DevOps**: Site Reliability, Linux, Cloud Migration, CI/CD, Docker, ServiceNow
-- **Development**: Web Development, Full-Stack, Postman, Agile
-- **Computer Science**: Computer Vision, OpenCV, LiDAR, Operating Systems
-- **Domains**: Autonomous Vehicles, Social Computing, Systems
-
-## Projects
-
-### LiDAR-based System for Vehicle Assistance
-
-**Technologies**: Python, OpenCV, TensorFlow, NumPy, Pandas
-
-- Developed a multistep model in Python to **visualize and analyze 3D point cloud data** from a Velodyne-HDL sensor, achieving an **accuracy of 79.80%** in obstacle detection and classification.
-- Implemented **RANSAC segmentation** for removing noise and extracting ground planes in the LiDAR data.
-- Utilized **DBSCAN clustering** to group data points belonging to the same obstacle, enabling efficient and accurate detection of individual objects.
-- Applied **Decision Tree algorithms** for obstacle classification and performed **distance estimation**, facilitating enhanced vehicle navigation and safety.
+# Ashwattha Phatak
+Raleigh, NC  
+📞 919-971-3500 | 📧 ashwatthap@gmail.com  
+🔗 [linkedin.com/in/ashwatthaphatak](https://linkedin.com/in/ashwatthaphatak) | [github.com/AshP-dev](https://github.com/AshP-dev)
 
 ---
 
-### Analyzing Impact of Moderation Policies on Social Media Engagement
-
-**Technologies**: Python, NumPy, Pandas, Scikit-learn, Matplotlib
-
-- Conducted a **comparative analysis of country-specific moderation policies** on Twitter to evaluate their impact on user engagement with flagged or blocked content.
-- Examined the alignment of moderation policies with public sentiment and analyzed its effect on **retweet behavior** and overall user interaction.
-- Processed and visualized **large-scale tweet data** consisting of approximately **650,000 data points**, leveraging statistical tests to validate the results.
-- Generated insights into how effective moderation approaches influence user behavior, focusing on their potential to reduce interaction with flagged content.
+## SUMMARY
+Graduate CS student (GPA 3.93) specializing in **Operating Systems and Embedded Software**. Hands-on experience with **kernel development (Xinu OS: demand paging, scheduling, file system defragmentation)**, Linux-embedded platforms (**NVIDIA Jetson, ROS**), and **OTA firmware infrastructures**. Skilled in **real-time systems, memory management, device configuration (switches, modems, edge devices)**, and debugging embedded platforms for robotics and autonomous applications.
 
 ---
 
-### Implementing Demand Paging in Xinu
-
-**Technologies**: C, Assembly, Xinu
-
-- Designed and implemented an **efficient page fault handler** to dynamically load necessary pages into memory and update page tables, achieving a **5% error rate** in memory handling.
-- Configured and integrated a **Second Chance page replacement algorithm**, ensuring optimal page reuse while reducing page faults by **70%**, leading to improved system performance.
-- Enhanced process execution continuity through a robust demand paging implementation, allowing for more effective memory management in a constrained environment.
+## SKILLS
+**Programming:** C, C++, Python, Bash, CUDA  
+**Systems & Frameworks:** Linux (L4T), Xinu OS, ROS, RTOS principles, OpenCV, Docker  
+**Technologies:** Embedded Systems, Real-Time Systems, Operating Systems, Computer Networks, Autonomous Platforms  
+**Tools:** Git, AWS, Grafana, Splunk  
 
 ---
 
-### College Collab Portal
+## EXPERIENCE
 
-**Technologies**: React.js, Node.js, Express.js, MongoDB
-
-- Developed a collaborative platform for programmers to **initiate and manage project ideas**, featuring a responsive user interface built with **React.js**.
-- Designed a scalable backend using **Node.js** and **Express.js**, enabling seamless interactions between users and project repositories.
-- Integrated the **GitHub API** to display user repositories on their profiles, providing **real-time tracking** of collaborative project progress.
-- Ensured robust database management with **MongoDB**, supporting user authentication, project submissions, and updates.
-
-## Professional Experience
-
-### Site Reliability Engineer
-
-**State Street Corporation**  
-Bangalore  
-_July 2023 – July 2024_
-
-- Implemented streamlined procedures for change, incident, and problem management, resulting in a **70% increase** in successful Change Ticket fulfillment.
-- Involved in the planning of disaster recovery activities, reducing expected downtime by **15%** and ensuring **100% operational continuity**.
-- Led documentation efforts with over **150 knowledge articles** for the suite of Hedge Reporting and Ledger applications.
+### Precision Sustainable Agriculture  
+**Embedded Systems Software Intern** – Raleigh, NC  
+*May 2025 – Dec 2025*  
+- Developed automated **OTA update infrastructure** for NVIDIA Jetson AGX Orin, ensuring robust firmware delivery and rollback protocols.  
+- Engineered **one-touch commissioning workflow** for switches, modems, and Jetson devices, reducing setup and deployment time.  
+- Implemented **real-time health monitoring** and automated testing for PoE OAK-D cameras, GPS modules, SMB protocols, edge units, and network switches.  
+- Migrated from ROS1 rosbag to a modern logging pipeline, improving **data throughput and reliability** in precision agriculture deployments.  
 
 ---
 
-### Technology Intern
+### Systems Lab – Dr. Yoon Man-ki  
+**Research Assistant, Autonomous Systems** – Raleigh, NC  
+*Jan 2025 – May 2025*  
+- Investigated **3D LiDAR data compression/decompression** for autonomous driving data, benchmarking performance across ML/DL pipelines.  
+- Designed and validated data pipelines, improving **storage efficiency** and reducing **latency in embedded inference tasks**.  
 
-**State Street Corporation**  
-Bangalore  
-_Jan 2023 – June 2023_
+---
 
-- Designed and developed a React.js dashboard to display consolidated analytical data for the Infrastructure Reliability team, resulting in a **20% reduction** in potential major incidents related to cloud migrations.
-- Automated routine maintenance tasks, saving the team an average of **10 hours per week** and improving overall efficiency by **15%**.
+### State Street Corporation  
+**Software Engineer / Automation Intern** – Bangalore, India  
+*Jan 2023 – Jul 2024*  
+- Automated infrastructure monitoring and **log parsing tools** (Python, Bash), reducing manual effort by 10+ hours weekly.  
+- Built dashboards for **reliability analytics**, streamlining troubleshooting for distributed financial systems.  
+- Documented 150+ technical articles, reducing onboarding time for new engineers.  
 
-## Extracurricular experience
+---
 
-### Trek Leader Pan-India | Foliage Outdoors Limited | Jan 2017 – May 2024
+## PROJECTS
 
-• Was part of and led teams taking multiple kids camps, corporate outings and high-altitude treks across India.
+### Xinu OS – Kernel Development in C (CSC 501)  
+*Aug 2024 – Dec 2024*  
+- Implemented new **round-robin scheduling policies** with Linux-like fairness, eliminating process starvation.  
+- Built **demand paging with multi-level page tables** (16MB physical → 4GB virtual per process), reducing page faults by 40%.  
+- Developed **inode/superblock parsers** for a file system defragmenter, achieving contiguous disk allocation via multi-level block management.  
+- Experience with **context switching, interrupt handling, IPC, TLB management, and memory allocation strategies**.  
+
+---
+
+### Autonomous Vehicle Stop Sign Detection – CARLA Simulator  
+*Mar 2025*  
+- Integrated a **CNN-based traffic sign classifier** with CARLA’s RGB camera pipeline for real-time stop sign detection.  
+- Designed wave-curve probability tracker for confidence-based vehicle slowdown (≥60%) and stop (≥90%).  
+- Optimized **camera FOV, resolution, and latency** for reliable embedded vision performance in constrained environments.  
+
+---
+
+## EDUCATION
+**North Carolina State University, Raleigh** – M.S. in Computer Science (Aug 2024 – May 2026)  
+- GPA: 3.93 / 4.00  
+- Relevant Coursework: Operating Systems, Computer Networks, Advanced Robotics, Algorithms  
+
+**Vishwakarma Institute of Technology, Pune** – B.Tech. Electronics & Telecommunication (Aug 2019 – May 2023)  
+- GPA: 8.76 / 10.0, Honors in Artificial Intelligence  
+
+---
