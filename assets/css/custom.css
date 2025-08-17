@@ -15,13 +15,11 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   overflow-x: hidden;
   z-index: 1;
 
-  /* Horizontal ruled lines like notebook */
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent,
-    transparent 28px,
-    #c0c0c0 29px
-  );
+  /* Engineering notebook dot grid */
+  background-image: 
+    radial-gradient(circle, #c0c0c0 1px, transparent 1px);
+  background-size: 28px 28px; /* grid spacing */
+  padding-left: 140px;         /* ensure text aligns with grid starting after red line */
 }
 
 /* Red margin line—anchored to the notepad wrapper, never overlaps text */
@@ -37,17 +35,23 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   z-index: 0;
 }
 
-/* Typography */
+/* Typography aligned to dot grid */
 h1, h2, h3 {
   font-family: 'Courier Prime', monospace;
   color: #003366;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  margin-top: 28px; /* multiple of grid spacing */
+  margin-bottom: 14px;
   border-bottom: 1px solid #003366;
   padding-bottom: 0.25rem;
   font-weight: 400;
 }
 
+p, li, code, pre {
+  margin-top: 0;
+  margin-bottom: 28px; /* text lines align to dot spacing */
+}
+
+/* Links */
 a {
   color: #cc6600; 
   text-decoration: none; 
