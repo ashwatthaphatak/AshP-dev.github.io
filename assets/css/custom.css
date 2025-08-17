@@ -6,18 +6,14 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
 .notepad {
   position: relative;
   min-height: 100vh;
-  width: 100vw;              /* stretches full width */
-  padding: 2rem 3rem 4rem 140px;  /* left padding keeps text clear of red line */
+  width: 100%;
+  padding: 2rem 110px 4rem 140px; /* right padding matches left margin distance (110px) */
   background-color: #fffbea;      /* notepad yellow */
   color: #222;
   line-height: 1.6;
   font-family: 'Inter', sans-serif;
-
-  /* Optional: faint horizontal ruling. Uncomment if you want lines.
-  background-image: repeating-linear-gradient(
-    to bottom, transparent, transparent 28px, #e6e6e6 29px
-  );
-  */
+  overflow-x: hidden;
+  z-index: 1;
 }
 
 /* Red margin line—anchored to the notepad wrapper, never overlaps text */
@@ -27,15 +23,15 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   top: 0;
   bottom: 0;
   left: 110px;               /* margin line position */
-  width: 2px;
-  background: rgba(200, 0, 0, 0.5);
+  width: 3px;                /* slightly thicker for better visibility */
+  background: rgba(200, 0, 0, 0.8); /* darker/more visible red */
   pointer-events: none;
   z-index: 0;
 }
 
 /* Typography */
 h1, h2, h3 {
-  font-family: 'Courier Prime', monospace;  /* lab-notes/engineer vibe */
+  font-family: 'Courier Prime', monospace;
   color: #003366;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
@@ -45,7 +41,9 @@ h1, h2, h3 {
 }
 
 a {
-  color: #cc6600; text-decoration: none; border-bottom: 1px dotted #cc6600;
+  color: #cc6600; 
+  text-decoration: none; 
+  border-bottom: 1px dotted #cc6600;
 }
 a:hover { border-bottom-style: solid; }
 
