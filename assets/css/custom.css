@@ -1,8 +1,12 @@
-/* Reset & sizing */
+/* =========================
+   Reset & sizing
+   ========================= */
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
 
-/* Notepad wrapper with dot grid */
+/* =========================
+   Notepad wrapper with dot grid
+   ========================= */
 .notepad {
   position: relative;
   min-height: 100vh;
@@ -20,7 +24,7 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   background-size: 28px 28px;
 }
 
-/* Red margin line */
+/* Red vertical margin line */
 .notepad::before {
   content: "";
   position: absolute;
@@ -33,12 +37,28 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   z-index: 0;
 }
 
-/* Headings (all levels) — extra spacing above sections */
+/* =========================
+   Full-width red separator after contact info
+   ========================= */
+.red-separator {
+  border: none;
+  height: 3px;                   /* thickness of the line */
+  background: rgba(200, 0, 0, 0.8);
+  margin: 2rem 0;                /* spacing above/below */
+  width: 100vw;                   /* full viewport width */
+  position: relative;
+  left: 0;                        /* starts from left edge of screen */
+  z-index: 1;
+}
+
+/* =========================
+   Headings — extra spacing for sections
+   ========================= */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Courier Prime', monospace;
   color: #003366;
   font-weight: 400;
-  margin-top: 56px;   /* more spacing above headings */
+  margin-top: 56px;   /* spacing above heading */
   margin-bottom: 28px; /* spacing below heading */
   padding: 0;
   border: none;
@@ -48,14 +68,18 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 28px; /* aligns with dot grid */
 }
 
-/* Paragraphs — normal spacing aligned to dot grid */
+/* =========================
+   Paragraphs — normal spacing
+   ========================= */
 p {
   margin-top: 0;
   margin-bottom: 28px;
   line-height: 28px;   /* matches dot grid */
 }
 
-/* Lists — tighter spacing between bullet points */
+/* =========================
+   Lists — tighter spacing between bullets
+   ========================= */
 ul, ol {
   margin-top: 0;
   margin-bottom: 28px; /* spacing after the list */
@@ -68,7 +92,9 @@ li {
   line-height: 28px;   /* aligns with dot grid */
 }
 
-/* Code blocks and inline code */
+/* =========================
+   Code blocks and inline code
+   ========================= */
 code, pre {
   font-family: 'Courier Prime', monospace;
   background: #fff4c2;
@@ -76,19 +102,27 @@ code, pre {
   padding: 0.2em 0.4em;
   border-radius: 4px;
   display: inline-block;
-  line-height: 28px; /* aligns with dots */
+  line-height: 28px; /* aligns with dot grid */
 }
 
-/* Media responsiveness */
+/* =========================
+   Links styling
+   ========================= */
+a {
+  color: #cc6600;
+  text-decoration: none;
+  border-bottom: 1px dotted #cc6600;
+}
+a:hover { border-bottom-style: solid; }
+
+/* =========================
+   Remove horizontal rules from Markdown
+   ========================= */
+hr {
+  display: none;
+}
+
+/* =========================
+   Media responsiveness
+   ========================= */
 img, table { max-width: 100%; }
-
-/* Red top border under title/contact info */
-.notepad h1:first-of-type::after {
-  content: "";
-  display: block;
-  margin-top: 1rem;      /* space between title and red line */
-  margin-bottom: 2rem;   /* space after red line before sections */
-  height: 3px;            /* thickness of the red line */
-  width: 100%;            /* full width of content area */
-  background: rgba(200, 0, 0, 0.8);
-}
