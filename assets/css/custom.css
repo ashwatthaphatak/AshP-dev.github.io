@@ -1,3 +1,38 @@
+/* Reset & sizing */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
+
+/* Notepad wrapper with dot grid */
+.notepad {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem 110px 4rem 140px; /* left/right padding with red line margin */
+  background-color: #fffbea;
+  color: #222;
+  font-family: 'Inter', sans-serif;
+  line-height: 28px; /* matches dot grid spacing */
+  overflow-x: hidden;
+  z-index: 1;
+
+  /* Engineering notebook dot grid */
+  background-image: radial-gradient(circle, #c0c0c0 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Red margin line */
+.notepad::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 110px;
+  width: 3px;
+  background: rgba(200, 0, 0, 0.8);
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* Headings (all levels) — extra spacing above sections */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Courier Prime', monospace;
@@ -43,3 +78,6 @@ code, pre {
   display: inline-block;
   line-height: 28px; /* aligns with dots */
 }
+
+/* Media responsiveness */
+img, table { max-width: 100%; }
