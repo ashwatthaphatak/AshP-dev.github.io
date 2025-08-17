@@ -1,0 +1,9 @@
+body {
+    font-family: 'Fira Code', 'Source Code Pro', monospace;
+    background-color: #121212;  /* optional if theme is not fully dark */
+    color: #e0e0e0;
+}
+
+a {
+    color: #61dafb; /* subtle tech blue for links */
+}

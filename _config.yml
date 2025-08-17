@@ -1,5 +1,10 @@
 title: Ashwattha Phatak
 logo: assets/iimg/84adae99-ec24-49af-ac6b-23e4fc266887.JPG
 
-show_downloads: false
+show_downloads: true
 theme: jekyll-theme-slate
+plugins: [jekyll-feed]
+
+# Include custom CSS
+sass:
+  style: compressed
