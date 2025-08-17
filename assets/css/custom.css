@@ -1,60 +1,63 @@
-/* Background = notepad yellow with faint ruling */
+/* Make the page stretch full width */
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #fffbea;
-  color: #222;
+  margin: 0;
+  padding: 2rem;
+  font-family: "Fira Code", monospace;
+  background: #fff8dc; /* light yellow notepad */
   line-height: 1.6;
-  max-width: 900px;
-  margin: auto;
-  padding: 40px;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent,
-    transparent 28px,
-    #e6e6e6 29px
-  );
+  color: #222;
 }
 
-/* Red notepad margin */
+/* Remove Slate's max-width */
+.container-lg {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Red margin line */
 body::before {
   content: "";
   position: fixed;
   top: 0;
-  bottom: 0;
-  left: calc(50% - 450px + 60px); /* aligns with body margin */
+  left: 80px; /* notepad margin */
   width: 2px;
-  background: #ff4d4d;
+  height: 100%;
+  background: rgba(200, 0, 0, 0.5);
+  z-index: 1;
 }
 
-/* Headings: typewriter/monospace, ink blue */
+/* Content area shifts right of the red line */
+.markdown-body {
+  margin-left: 100px; /* ensures text doesn’t overlap red line */
+  padding-right: 2rem;
+}
+
+/* Heading styles */
 h1, h2, h3 {
-  font-family: 'Courier Prime', monospace;
-  color: #003366;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #003366;
-  padding-bottom: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
 }
 
-/* Links in orange ink */
+/* Links */
 a {
-  color: #cc6600;
+  color: #0044cc;
   text-decoration: none;
+  border-bottom: 1px dotted #0044cc;
 }
+
 a:hover {
-  text-decoration: underline;
+  color: #222;
+  border-bottom: 1px solid #222;
 }
 
-/* Section dividers */
-hr {
-  border: none;
-  border-top: 1px dashed #bbb;
-  margin: 40px 0;
-}
-
-/* Contact info spacing */
-.contact {
-  font-family: 'Courier Prime', monospace;
-  font-size: 0.95rem;
-  color: #333;
+/* Code blocks */
+code, pre {
+  font-family: "Fira Code", monospace;
+  background: #fffacd;
+  border: 1px solid #e5d17f;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
 }
