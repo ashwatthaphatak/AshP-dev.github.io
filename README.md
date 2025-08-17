@@ -1,7 +1,7 @@
 # Systems Software Engineer
 Raleigh, NC  
 📞 919-971-3500 | 📧 ashwatthap@gmail.com  
-🔗 [linkedin.com/in/ashwatthaphatak](https://linkedin.com/in/ashwatthaphatak) | [github.com/AshP-dev](https://github.com/AshP-dev)
+🔗 [linkedin.com/in/ashwatthaphatak](https://linkedin.com/in/ashwatthaphatak) | [github.com/AshP-dev](https://github.com/ashwatthaphatak)
 
 ---
 
