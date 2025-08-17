@@ -33,15 +33,19 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
   z-index: 0;
 }
 
-/* Headings aligned to dot grid, no underline */
-h1, h2, h3 {
+/* Headings aligned to dot grid, no underline or extra lines */
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Courier Prime', monospace;
   color: #003366;
   font-weight: 400;
-  margin-top: 28px; /* aligns with dot grid */
-  margin-bottom: 14px;
-  padding-bottom: 0;
-  border-bottom: none; /* no underline to prevent extra lines */
+  margin-top: 28px;   /* aligns with dot grid */
+  margin-bottom: 14px; 
+  padding: 0;          /* remove padding */
+  border: none;        /* remove border */
+  border-bottom: none; 
+  box-shadow: none;    /* remove faint line if any */
+  background: none;    /* remove background styles if any */
+  line-height: 28px;   /* matches dot grid */
 }
 
 /* Paragraphs aligned to dot grid */
