@@ -4,6 +4,8 @@ Raleigh, NC
 📞 919-971-3500 | 📧 ashwatthap@gmail.com  
 🔗 [linkedin.com/in/ashwatthaphatak](https://linkedin.com/in/ashwatthaphatak) | [github.com/ashwatthaphatak](https://github.com/ashwatthaphatak)
 
+<hr class="red-separator">
+
 ## SUMMARY
 
 Graduate CS student (GPA 3.93) specializing in **Operating Systems and Embedded Software**. Hands-on experience with **kernel development (Xinu OS: demand paging, scheduling, file system defragmentation)**, Linux-embedded platforms (**NVIDIA Jetson, ROS**), and **OTA firmware infrastructures**. Skilled in **real-time systems, memory management, device configuration (switches, modems, edge devices)**, and debugging embedded platforms for robotics and autonomous applications.
