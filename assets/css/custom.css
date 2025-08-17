@@ -1,43 +1,46 @@
-/* Dark engineer vibe */
+/* Overall site */
 body {
-  font-family: 'Fira Code', 'Source Code Pro', monospace;
-  background-color: #121212 !important;
-  color: #e0e0e0 !important;
+  font-family: 'Inter', sans-serif;  /* clean readable text */
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
 }
 
-/* Headings */
+/* Headings: minimal terminal vibe */
 h1, h2, h3 {
-  font-family: 'Roboto Mono', monospace;
-  color: #00e5ff !important;
-  font-weight: 600;
+  font-family: 'VT323', monospace;   /* pixel/terminal font */
+  color: #00ff7f;                    /* subtle green accent */
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-left: 3px solid #00ff7f;
+  padding-left: 10px;
 }
 
 /* Links */
 a {
-  color: #61dafb !important;
+  color: #61dafb;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 
-/* Logo */
-img {
-  border-radius: 10px;
-  box-shadow: 0px 2px 6px rgba(0,0,0,0.5);
-}
-
-/* Pixel / ASCII look for headings */
-h1, h2, h3, h4 {
-  font-family: 'Press Start 2P', 'VT323', monospace;
-  letter-spacing: 2px;
-  color: #00ff7f !important; /* retro green */
-  text-shadow: 0px 0px 8px rgba(0, 255, 127, 0.6);
-  margin-bottom: 20px;
-}
-
 /* Section dividers */
 hr {
-  border: 1px dashed #00ff7f;
-  margin: 30px 0;
+  border: none;
+  border-top: 1px dashed #444;
+  margin: 40px 0;
+}
+
+/* Code snippets if you add any later */
+code, pre {
+  font-family: 'Fira Code', monospace;
+  background: #1a1a1a;
+  padding: 2px 6px;
+  border-radius: 4px;
 }
