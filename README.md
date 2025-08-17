@@ -1,12 +1,8 @@
-<div class="title-block">
-
 # Ashwattha Phatak
 
 Raleigh, NC  
 📞 919-971-3500 | 📧 ashwatthap@gmail.com  
 🔗 [linkedin.com/in/ashwatthaphatak](https://linkedin.com/in/ashwatthaphatak) | [github.com/ashwatthaphatak](https://github.com/ashwatthaphatak)
-
-</div>
 
 ## SUMMARY
 
