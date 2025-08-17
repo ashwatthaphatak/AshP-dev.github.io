@@ -1,62 +1,61 @@
-/* Make the page stretch full width */
-body {
-  margin: 0;
-  padding: 2rem;
-  font-family: "Fira Code", monospace;
-  background: #fff8dc; /* light yellow notepad */
+/* Reset & sizing */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
+
+/* Full-width notepad wrapper */
+.notepad {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;              /* stretches full width */
+  padding: 2rem 3rem 4rem 140px;  /* left padding keeps text clear of red line */
+  background-color: #fffbea;      /* notepad yellow */
+  color: #222;
   line-height: 1.6;
-  color: #222;
+  font-family: 'Inter', sans-serif;
+
+  /* Optional: faint horizontal ruling. Uncomment if you want lines.
+  background-image: repeating-linear-gradient(
+    to bottom, transparent, transparent 28px, #e6e6e6 29px
+  );
+  */
 }
 
-/* Remove Slate's max-width */
-.container-lg {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-
-/* Red margin line */
-body::before {
+/* Red margin line—anchored to the notepad wrapper, never overlaps text */
+.notepad::before {
   content: "";
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: 80px; /* notepad margin */
+  bottom: 0;
+  left: 110px;               /* margin line position */
   width: 2px;
-  height: 100%;
   background: rgba(200, 0, 0, 0.5);
-  z-index: 1;
+  pointer-events: none;
+  z-index: 0;
 }
 
-/* Content area shifts right of the red line */
-.markdown-body {
-  margin-left: 100px; /* ensures text doesn’t overlap red line */
-  padding-right: 2rem;
-}
-
-/* Heading styles */
+/* Typography */
 h1, h2, h3 {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-family: 'Courier Prime', monospace;  /* lab-notes/engineer vibe */
+  color: #003366;
   margin-top: 2rem;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.3rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #003366;
+  padding-bottom: 0.25rem;
+  font-weight: 400;
 }
 
-/* Links */
 a {
-  color: #0044cc;
-  text-decoration: none;
-  border-bottom: 1px dotted #0044cc;
+  color: #cc6600; text-decoration: none; border-bottom: 1px dotted #cc6600;
 }
+a:hover { border-bottom-style: solid; }
 
-a:hover {
-  color: #222;
-  border-bottom: 1px solid #222;
-}
+/* Keep media responsive */
+img, table, pre, code { max-width: 100%; }
 
-/* Code blocks */
+/* Optional: tune code look */
 code, pre {
-  font-family: "Fira Code", monospace;
-  background: #fffacd;
+  font-family: 'Courier Prime', monospace;
+  background: #fff4c2;
   border: 1px solid #e5d17f;
   padding: 0.2em 0.4em;
   border-radius: 4px;
