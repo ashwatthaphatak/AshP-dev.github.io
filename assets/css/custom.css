@@ -71,7 +71,7 @@ li {
 /* Code blocks and inline code */
 code, pre {
   font-family: 'Courier Prime', monospace;
-  background: #fff4c2;
+  background: #d8b92c;
   border: 1px solid #e5d17f;
   padding: 0.2em 0.4em;
   border-radius: 4px;
@@ -90,5 +90,5 @@ img, table { max-width: 100%; }
   margin-bottom: 2rem;   /* space after red line before sections */
   height: 3px;            /* thickness of the red line */
   width: 100%;            /* full width of content area */
-  background: rgba(200, 0, 0, 0.8);
+  background: rgba(15, 33, 198, 0.8);
 }
