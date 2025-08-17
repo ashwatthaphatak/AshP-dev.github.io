@@ -81,3 +81,14 @@ code, pre {
 
 /* Media responsiveness */
 img, table { max-width: 100%; }
+
+/* Red top border under title/contact info */
+.notepad h1:first-of-type::after {
+  content: "";
+  display: block;
+  margin-top: 1rem;      /* space between title and red line */
+  margin-bottom: 2rem;   /* space after red line before sections */
+  height: 3px;            /* thickness of the red line */
+  width: 100%;            /* full width of content area */
+  background: rgba(200, 0, 0, 0.8);
+}
