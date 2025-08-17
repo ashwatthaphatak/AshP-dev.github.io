@@ -1,29 +1,44 @@
-/* Overall site */
+/* Background = notepad yellow with faint ruling */
 body {
-  font-family: 'Inter', sans-serif;  /* clean readable text */
-  background-color: #0d0d0d;
-  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fffbea;
+  color: #222;
   line-height: 1.6;
   max-width: 900px;
   margin: auto;
-  padding: 30px;
+  padding: 40px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 28px,
+    #e6e6e6 29px
+  );
 }
 
-/* Headings: minimal terminal vibe */
+/* Red notepad margin */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 450px + 60px); /* aligns with body margin */
+  width: 2px;
+  background: #ff4d4d;
+}
+
+/* Headings: typewriter/monospace, ink blue */
 h1, h2, h3 {
-  font-family: 'VT323', monospace;   /* pixel/terminal font */
-  color: #00ff7f;                    /* subtle green accent */
-  letter-spacing: 1px;
-  font-weight: normal;
+  font-family: 'Courier Prime', monospace;
+  color: #003366;
   margin-top: 40px;
   margin-bottom: 15px;
-  border-left: 3px solid #00ff7f;
-  padding-left: 10px;
+  border-bottom: 1px solid #003366;
+  padding-bottom: 4px;
 }
 
-/* Links */
+/* Links in orange ink */
 a {
-  color: #61dafb;
+  color: #cc6600;
   text-decoration: none;
 }
 a:hover {
@@ -33,14 +48,13 @@ a:hover {
 /* Section dividers */
 hr {
   border: none;
-  border-top: 1px dashed #444;
+  border-top: 1px dashed #bbb;
   margin: 40px 0;
 }
 
-/* Code snippets if you add any later */
-code, pre {
-  font-family: 'Fira Code', monospace;
-  background: #1a1a1a;
-  padding: 2px 6px;
-  border-radius: 4px;
+/* Contact info spacing */
+.contact {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.95rem;
+  color: #333;
 }
