@@ -8,14 +8,13 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Courier+Prime&display=swap" rel="stylesheet" />
 
-    <!-- Keep Slate for base markdown, but we won't use its container classes -->
+    <!-- Base Slate CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
 
-    <!-- Your custom CSS (with cache-bust) -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}" />
   </head>
   <body>
-    <!-- Full-width wrapper that we control -->
     <main class="notepad">
       {{ content }}
     </main>
